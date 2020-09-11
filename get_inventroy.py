@@ -23,6 +23,5 @@ print("The number of S3 Buckets are: " + buckets)
 
 client_agw = boto3.client('apigateway')
 response = client_agw.get_rest_apis()
-api_gws = str(
-    (sum([len(response['items']) for x in response if isinstance(response['items'], list)])))
+api_gws = len(response['items'])
 print("The number of API GW are: " + api_gws)
