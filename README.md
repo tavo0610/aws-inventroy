@@ -1,7 +1,10 @@
 # aws-inventroy
 Script to get inventory of specific services in AWS
 
-Steps:
+Requirements:
+- You have to have an AWS account set up by deafult
+- pip3 install boto3
 
-1.- pip3 install boto3
-2.- python3 get_inventroy.py
+Instrucctions
+
+- python3 get_inventroy.py
